@@ -1,0 +1,53 @@
+{
+  "name": "@nerdlab/lexical",
+  "version": "0.1.1",
+  "description": "Lexical",
+  "private": true,
+  "main": "src/index.js",
+  "engines": {
+    "node": ">= 12.16.3",
+    "npm": ">= 6.14.4",
+    "yarn": "^1.22.10"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [
+    "lexical"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:biosis21/3d-viewer.git"
+  },
+  "author": "Mykola Savenko <biosis21@gmail.com>",
+  "contributors": [
+    "Mykola Savenko <biosis21@gmail.com>",
+    "AskardGO <66526283+AskardGO@users.noreply.github.com>"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "lexical": "^0.3.11",
+    "style-loader": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "aws-sdk": "^2.907.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.5",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.37.0",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^4.10.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
